@@ -1,7 +1,7 @@
 package PremierLeague.Fantasy.service;
 
 import PremierLeague.Fantasy.repository.AccountRoleRepository;
-import PremierLeague.Fantasy.model.AccountRole;
+import PremierLeague.Fantasy.model.login.AccountRole;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

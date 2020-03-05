@@ -2,8 +2,8 @@ package PremierLeague.Fantasy.component;
 
 import PremierLeague.Fantasy.repository.AccountRepository;
 import PremierLeague.Fantasy.repository.AccountRoleRepository;
-import PremierLeague.Fantasy.model.Account;
-import PremierLeague.Fantasy.model.AccountRole;
+import PremierLeague.Fantasy.model.login.Account;
+import PremierLeague.Fantasy.model.login.AccountRole;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;

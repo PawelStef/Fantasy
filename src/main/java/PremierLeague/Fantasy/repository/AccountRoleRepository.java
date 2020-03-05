@@ -1,6 +1,6 @@
 package PremierLeague.Fantasy.repository;
 
-import PremierLeague.Fantasy.model.AccountRole;
+import PremierLeague.Fantasy.model.login.AccountRole;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

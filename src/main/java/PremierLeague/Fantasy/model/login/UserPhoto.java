@@ -1,4 +1,4 @@
-package PremierLeague.Fantasy.model;
+package PremierLeague.Fantasy.model.login;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

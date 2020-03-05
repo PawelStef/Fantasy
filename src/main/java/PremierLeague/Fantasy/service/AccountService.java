@@ -2,9 +2,9 @@ package PremierLeague.Fantasy.service;
 
 import PremierLeague.Fantasy.repository.AccountRepository;
 import PremierLeague.Fantasy.repository.AccountRoleRepository;
-import PremierLeague.Fantasy.model.Account;
-import PremierLeague.Fantasy.model.AccountRole;
-import PremierLeague.Fantasy.model.UserPhoto;
+import PremierLeague.Fantasy.model.login.Account;
+import PremierLeague.Fantasy.model.login.AccountRole;
+import PremierLeague.Fantasy.model.login.UserPhoto;
 import PremierLeague.Fantasy.model.dto.AccountPasswordResetRequest;
 import PremierLeague.Fantasy.repository.UserPhotoRepository;
 import org.springframework.beans.factory.annotation.Autowired;

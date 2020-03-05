@@ -2,7 +2,7 @@ package PremierLeague.Fantasy.controller;
 
 import PremierLeague.Fantasy.service.AccountRoleService;
 import PremierLeague.Fantasy.service.AccountService;
-import PremierLeague.Fantasy.model.Account;
+import PremierLeague.Fantasy.model.login.Account;
 import PremierLeague.Fantasy.model.dto.AccountPasswordResetRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;

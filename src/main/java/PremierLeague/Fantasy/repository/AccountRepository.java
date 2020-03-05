@@ -1,6 +1,6 @@
 package PremierLeague.Fantasy.repository;
 
-import PremierLeague.Fantasy.model.Account;
+import PremierLeague.Fantasy.model.login.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

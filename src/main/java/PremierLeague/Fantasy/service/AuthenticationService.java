@@ -1,10 +1,9 @@
 package PremierLeague.Fantasy.service;
 
 import PremierLeague.Fantasy.repository.AccountRepository;
-import PremierLeague.Fantasy.model.Account;
-import PremierLeague.Fantasy.model.AccountRole;
+import PremierLeague.Fantasy.model.login.Account;
+import PremierLeague.Fantasy.model.login.AccountRole;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
