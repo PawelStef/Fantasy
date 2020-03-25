@@ -43,9 +43,25 @@ public class Account {
     }
 
     public String convertBinImageToString() {
-        if (photo !=null && photo.getFoto().length > 0) {
+        if (photo != null && photo.getFoto().length > 0) {
             return Base64.getEncoder().encodeToString(photo.getFoto());
         }
         return "";
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public void setPassword(String encode) {
+        this.password=encode;
+    }
+
+    public void setAccountRoles(Set<AccountRole> userRoles) {
+        this.accountRoles.addAll(userRoles);
     }
 }

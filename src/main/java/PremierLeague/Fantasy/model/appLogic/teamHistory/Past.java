@@ -1,4 +1,4 @@
-package PremierLeague.Fantasy.model.login;
+package PremierLeague.Fantasy.model.appLogic.teamHistory;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,18 +13,10 @@ import javax.persistence.Id;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class AccountRole {
+public class Past {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String name;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String role) {
-        name=role;
-    }
 }

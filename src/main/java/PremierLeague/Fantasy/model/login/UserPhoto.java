@@ -18,4 +18,8 @@ public class UserPhoto {
     @Lob
     @Column(columnDefinition = "LONGBLOB")
     private byte[] foto;
+
+    public byte[] getFoto() {
+        return foto;
+    }
 }
