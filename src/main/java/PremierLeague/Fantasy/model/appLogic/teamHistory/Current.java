@@ -1,4 +1,5 @@
 package PremierLeague.Fantasy.model.appLogic.teamHistory;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,7 +10,9 @@ import javax.persistence.*;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class Current {
+@JsonIgnoreProperties(ignoreUnknown = true)
+class Current {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
